@@ -9,7 +9,7 @@ grep "origin" * -rl | xargs sed -i 's/origin/substitute/g'
 * Change python specific version (3.8.0)
 ``` bash
 # Install python packages
-apt install python3.8 python3.8-dev python-pip python3-pip
+sudo apt install python3.8 python3.8-dev python-pip python3-pip
 
 # Install python3.8 to system
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 0
