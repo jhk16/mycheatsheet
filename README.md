@@ -24,4 +24,9 @@ sudo update-alternatives --config python3
 python -m pip install -U matplotlib
 python -m pip install -U pandas
 python -m pip install -U seaborn
+
+# Fix 'command not found'
+sudo ln -s \
+	/usr/lib/python3/dist-packages/apt_pkg.cpython-36m-x86_64-linux-gnu.so \
+	/usr/lib/python3/dist-packages/apt_pkg.so
 ```
