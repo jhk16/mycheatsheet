@@ -1,5 +1,5 @@
-# My cheat sheets
-=================
+# My cheat sheet
+
 
 * Find string and substitute
 ``` bash
