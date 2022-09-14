@@ -1,5 +1,9 @@
 # My cheat sheet
 
+* Add existing submodule
+``` bash
+git submodule add <url of remote submodule> <relative path of submodule>
+```
 
 * Find string and substitute
 ``` bash
